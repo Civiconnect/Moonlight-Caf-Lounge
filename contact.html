@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/85b9814f97.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/all.css" />
+    <link rel="stylesheet" href="/styles/contact.css" />
+    <title> My Website | Contact</title>
+  </head>
+  <body>
+    <div class="navBar">
+        <img src="/images/Logo1.jpg" alt="My company Logo">
+      <div class="navBarLinks">
+        <a href="/homepage.html">Home</a>
+        <a href="/shop.html">Shop</a>
+        <a href="/contact.html" class="selected">Contact</a>
+      </div>
+    </div>
+    <div class="contact-container">
+      
+      <div class="contact-card">
+        <h2>Contact Info</h2>
+        <div class="twoCols">
+          <img src="/images/coffee-illustration.png" alt="Illustration of a coffee">
+          <div>
+            <p>(905) 894-2334</p>
+            <p>Shawki@moonlight.ca</p>
+            <p>1100 Erin Mills Drive</p>
+            <p>Mississauga, Ontario, Canada</p>
+            <p>L5L 3K3</p>
+          </div>
+        </div>
+      </div>
+      <h2>Send Us a Message</h2>
+      <form class="message-form" action="https://formsubmit.co/ssha'aban@civiconnect.ca" method="POST">
+        <label for="name">Your Name</label>
+        <input type="text" name="name" id="name" placeholder="John Doe">
+        <label for="email">Your Email</label>
+        <input type="email" name="email" id="email" placeholder="jdoe@gmail.com">
+        <label for="message">Your Message</label>
+        <textarea name="message" id="message" rows="8" placeholder="Enter your message"></textarea>
+        <button type="submit">Send <i class="fa-solid fa-paper-plane"></i></button>
+        <!-- AUTORESPONSDER - https://formsubmit.co/documentation -->
+        <input type="hidden" name="_autoresponse" value="Thanks for your message.  We'll get back to you as soon as possible.">
+      </form>
+    </div>
+  </body>
+</html>
