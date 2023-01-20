@@ -1,5 +1,5 @@
 // fetch the watch data from our server
-const response = await fetch("/Menu.json");
+const response = await fetch("/Moonlight-Cafe-Lounge/Menu.json");
 let Menu = await response.json();
 Menu = Menu.slice(0, 3);
 

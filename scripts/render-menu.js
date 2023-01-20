@@ -1,5 +1,5 @@
 // fetch the watch data from our server
-const response = await fetch("/Menu.json");
+const response = await fetch("/Moonlight-Cafe-Lounge/Menu.json");
 const Menu = await response.json();
 
 console.log(Menu); 
